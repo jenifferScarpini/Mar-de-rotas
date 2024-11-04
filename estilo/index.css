@@ -6,6 +6,12 @@
     
 }
 
+:root{
+    --cor1: hsl(192, 62%, 25%);
+    --cor2: #004f6d;
+    font1: 'Poppins', sans-serif;
+}
+
 .container{
     display: flex;
     height: 100vh;
@@ -14,19 +20,24 @@
 
 .menu{
     width: 250px;
-    background-color: #004f6d;
+    background-color: var(--cor1);
     color: white;
     padding: 20px;
     display: flex;
     flex-direction: column;
-    align-items: start;
+    align-items: center;
+    
+       
+    
 }
 
 .menu h1{
     color: white;
     font-size: 2rem;
     margin-bottom: 60px;
-    margin-top: 20px;    
+    margin-top: 20px; 
+    text-align: center;
+    
 }
 
 .menu ul{
@@ -34,8 +45,14 @@
 
 }
 
+.menu a{
+    color: white;
+    text-decoration: none;
+}
+
 .menu ul li{
-    font-size: 1.6rem;
-    margin-bottom: 15px;
+    font-size: 1.7rem;
+    margin-bottom: 30px;
+    text-transform: capitalize;
 }
 
