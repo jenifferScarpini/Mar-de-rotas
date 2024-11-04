@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+    max-width: 100%;
+}
+
+.menu{
+    width: 250px;
+    background-color: #004f6d;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.menu h1{
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 60px;
+    margin-top: 20px;    
+}
+
+.menu ul{
+    list-style: none;
+
+}
+
+.menu ul li{
+    font-size: 1.6rem;
+    margin-bottom: 15px;
+}
+

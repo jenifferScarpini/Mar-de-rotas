@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel - Mar de Rotas</title>
+    <link rel="stylesheet" href="./est/style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Menu Hambúrguer -->
+        <div class="menu">
+            <div class="menu-icon" onclick="toggleMenu()">☰</div>
+            <div class="menu-content">
+                <ul>
+                    <li>Dashboard</li>
+                    <li>Meus Horários</li>
+                    <li>Criar Horário</li>
+                    <li>Mensagens</li>
+                    <li>Configurações</li>
+                    <li>Sair</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Painel Principal -->
+        <div class="dashboard">
+            <header>
+                <h1>Mar de Rotas</h1>
+                <p>Painel de controle para empresas</p>
+            </header>
+            <div class="stats">
+                <div class="stat-box">
+                    <h2>Horários Ativos</h2>
+                    <p>50</p>
+                </div>
+                <div class="stat-box">
+                    <h2>Novos Cadastros</h2>
+                    <p>5</p>
+                </div>
+                <div class="stat-box">
+                    <h2>Passageiros no Mês</h2>
+                    <p>1,200</p>
+                </div>
+            </div>
+            <div class="actions">
+                <button onclick="createSchedule()">Criar Novo Horário</button>
+                <button onclick="viewSchedules()">Ver Horários</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

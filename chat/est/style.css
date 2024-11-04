@@ -1,0 +1,106 @@
+/* style.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #1c1c28;
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.menu {
+  position: fixed;
+  left: 10px;
+  top: 10px;
+  z-index: 10;
+}
+
+.menu-icon {
+  font-size: 24px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.menu-content {
+  background-color: #252531;
+  border-radius: 8px;
+  padding: 20px;
+  display: none;
+}
+
+.menu-content ul {
+  list-style: none;
+}
+
+.menu-content ul li {
+  padding: 10px 0;
+  cursor: pointer;
+}
+
+.menu-content ul li:hover {
+  background-color: #3d3d55;
+  border-radius: 4px;
+  padding-left: 10px;
+}
+
+.dashboard {
+  width: 80%;
+  max-width: 900px;
+  margin-top: 60px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: #00bcd4;
+}
+
+header p {
+  color: #aaa;
+  margin-bottom: 20px;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.stat-box {
+  background-color: #252531;
+  padding: 20px;
+  border-radius: 8px;
+  width: 30%;
+  text-align: center;
+}
+
+.stat-box h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #00bcd4;
+}
+
+.actions button {
+  background-color: #00bcd4;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.actions button:hover {
+  background-color: #019aad;
+}
